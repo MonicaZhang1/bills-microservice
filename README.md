@@ -17,7 +17,13 @@
 4. Navigate to http://localhost:3000/bills/ to see the formatted data returned from the GET request. 
 5. Files in the frontend directory were created to test the microservice. They can be in a different repository but added here for easy access. 
 
-    Example -  sample fetch call to **request data** from the microservice:  
+    Example Request - API Endpoint 
+
+    Method: /GET
+    
+    URL: http://localhost:3000/bills/
+
+    Sample fetch call to **request data** from the microservice:  
 
         async function getRecentActionBills(){
             try {
